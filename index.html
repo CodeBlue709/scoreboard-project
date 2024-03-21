@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="team-name">HOME</h3>
+                <div class="score-board">
+                    
+                    <h1 id="home-team-score" class="score-styling ">0</h1>
+                </div>
+                
+                <div class = "btn-container">
+                    <button onclick = "homeIncermentOne()" class="button-styling">+1</button>
+                    <button onclick = "homeIncermentTwo()" class="button-styling">+2</button>
+                    <button onclick = "homeIncermentThree()" class="button-styling">+3</button>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="team-name">GUEST</h3>
+                <div class="score-board">
+                    <h1 id="guest-team-score" class="score-styling">0</h1>
+                </div>
+                
+                <div class = "btn-container">
+                    <button onclick = "guestIncermentOne()" class="button-styling">+1</button>
+                    <button onclick = "guestIncermentTwo()" class="button-styling">+2</button>
+                    <button onclick = "guestIncermentThree()" class="button-styling">+3</button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="reset-button-container">
+            <button onclick = "resetScore()" id="reset-button">RESET SCORE</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

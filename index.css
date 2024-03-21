@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background:#1B244A;
+}
+
+.team-name{
+    font-size:35px;
+    font-weight:900;
+    color: white;
+    margin:0px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.score-board{
+    width:150px;
+    height: 100px;
+    background:black;
+    border-radius:5px;
+}
+
+.score-styling{
+    color:darkred;
+    font-size:80px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    
+}
+.glowing{
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+      text-shadow: 0px 0px 10px red;
+    color:red;
+  }
+}
+.btn-container{
+    display:flex;
+    justify-content: center;
+}
+
+.button-styling{
+    color:#9AABD8;
+    border:1px solid#9AABD8;
+    border-radius:3px;
+    width:25px;
+    background: transparent;
+    margin:20px 5px;
+    padding:5px 25px 5px 5px;
+}
+
+#reset-button{
+    background: red;
+    padding: 20px; 
+    border-radius:10px;
+}
+
+#reset-button-container{
+   display: flex;
+   justify-content: center;
+   margin:20px 0px;
+}
+
